@@ -1,0 +1,9 @@
+#Estructura de la lattice en la que las especies se pueden adsorber. 
+
+#Generamos una lattice que tenga una forma hexagonal en que cada site tenga 6 vecinos a cada lado.
+
+lattice default_choice              # Utilizamos una de las lattice que vienen generadas por defecto.
+
+hexagonal_periodic 2.5   8   4    # El primer valor define la lattice constant (Distancia entre dos atomos en top). El segundo y tercer valor define el numero de veces que se repite en x, y. 
+
+end_lattice

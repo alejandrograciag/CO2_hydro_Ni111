@@ -1,0 +1,115 @@
+Executing: mkmcxx version mkmcxx 2.15.3
+Compiled on: Feb  3 2020 11:13:26
+Compiler: gcc 8.3.0
+OpenMP parallelization enabled
+Commit id: da3570c
+
+Authors: 
+    Ivo Filot <i.a.w.filot@tue.nl>
+    Bart Zijlstra <b.zijlstra@tue.nl>
+    Evert van Noort
+    Rudie van den Berg
+    Emiel Hensen <e.j.m.hensen@tue.nl>
+
+(C) Copyright 2012 Inorganic Materials Chemistry
+                   Eindhoven University of Technology
+
+This is a legal licensing agreement (Agreement) between You (an individual
+or single legal entity) and Inorganic Materials Chemistry (IMC)
+governing the in-house use of the MKMCXX software product (Software)
+By downloading, installing, or using Software, You agree to be bound by
+the license terms as given on http://wiki.mkmcxx.nl/index.php/License.
+
+
+Opening input file
+Searching for debug tag
+Debug level: DEBUG1 (from debug tag)
+Checking read rules
+Checking for segflow tag
+[11:41:57.322] DEBUG1: Done reading input
+[11:41:57.322] DEBUG : Performing Sequential Run experiment
+Performing SEQUENCERUN
+
+Number of runs:    1
+Number of threads: 1/20
+----------------------
+<--THREAD-00_RUN-001-START	 EACT
+<--THREAD-00_RUN-001-END	(100.0%)
+----------------------
+Finalizing SEQUENCERUN
+
+Performing DRC Analysis
+-----------------------
+<--RUN-001-END	(100.0%)
+-----------------------
+Finalizing DRC Analysis
+
+FINALIZING SEQUENCERUN -- SUMMARY
+*********************************
+For all runs, the sum of surface components has not changed more than 6.4392935428e-13%
+
+For all runs, no surface concentrations were found lower than 0.0000000000e+00
+
+For all runs, no absolute surface differentials were found higher than 2.2413935128e-13 (at 5.7315000000e+02K)
+
+For all runs, no relative surface differentials were found higher than 5.5631329498e-13 (at 5.7315000000e+02K)
+
+*********************************
+Additional routines ran
+-----------------------
+Apparent activation energy:
+    EACTDIFF = 0.0001
+    version 3.13.4 default = 0.0001; 
+          <=3.13.3 default = 0.002
+Degree of rate control:
+    DRCDIFF = 0.01
+    version 3.13.4 default = 0.01; 
+          <=3.13.3 default = 0.2
+-----------------------
+Calculating production patterns
+================================
+species_balance: Analyzing 4 products.
+[11:42:08.880] DEBUG : Temperature: 573.15
+
+Calculating selectivity patterns
+================================
+species_balance: Analyzing 4 products.
+[11:42:08.881] DEBUG : Temperature: 573.15
+
+Calculating degree of selectivity control
+=========================================
+species_balance: Analyzing 4 products.
+[11:42:08.881] DEBUG :     CH3OH: 
+[11:42:08.881] DEBUG : Temperature: 573.15
+[11:42:08.881] DEBUG :     CO: 
+[11:42:08.881] DEBUG : Temperature: 573.15
+[11:42:08.881] DEBUG :     CH2O: 
+[11:42:08.881] DEBUG : Temperature: 573.15
+[11:42:08.881] DEBUG :     CH4: 
+[11:42:08.881] DEBUG : Temperature: 573.15
+
+Writing network files...
+Writing SEQUENCERUN_2025-02-28_1141/networkplots/network_01_573.15K.dot
+*********************************
+
+Writing graphs...
+Logfile: SEQUENCERUN_2025-02-28_1141/graphs/graphs_log.txt
+Writing graphs per single_x
+[11:42:15.866] DEBUG : Writing 573.15K coverage...
+[11:42:16.196] DEBUG : Writing 573.15K derivatives...
+Writing range graphs
+[11:42:16.241] DEBUG : Writing range_coverage...
+[11:42:16.374] DEBUG : Writing range_derivative...
+[11:42:16.426] DEBUG : Writing range_rates...
+[11:42:16.535] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[11:42:16.535] DEBUG : Writing production for: species_balance
+[11:42:16.584] DEBUG : Writing selectivity for: species_balance
+[11:42:16.646] DEBUG : Writing degree of selectivity for: species_balance
+[11:42:16.646] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[11:42:16.646] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[11:42:16.646] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[11:42:16.646] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+*********************************
+
+Total execution time: 19346 ms.
+

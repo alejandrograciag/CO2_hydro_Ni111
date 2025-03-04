@@ -1,0 +1,113 @@
+Executing: mkmcxx version mkmcxx 2.15.3
+Compiled on: Feb  3 2020 11:13:26
+Compiler: gcc 8.3.0
+OpenMP parallelization enabled
+Commit id: da3570c
+
+Authors: 
+    Ivo Filot <i.a.w.filot@tue.nl>
+    Bart Zijlstra <b.zijlstra@tue.nl>
+    Evert van Noort
+    Rudie van den Berg
+    Emiel Hensen <e.j.m.hensen@tue.nl>
+
+(C) Copyright 2012 Inorganic Materials Chemistry
+                   Eindhoven University of Technology
+
+This is a legal licensing agreement (Agreement) between You (an individual
+or single legal entity) and Inorganic Materials Chemistry (IMC)
+governing the in-house use of the MKMCXX software product (Software)
+By downloading, installing, or using Software, You agree to be bound by
+the license terms as given on http://wiki.mkmcxx.nl/index.php/License.
+
+
+Opening input file
+Searching for debug tag
+Debug level: DEBUG1 (from debug tag)
+Checking read rules
+Checking for segflow tag
+[14:20:35.793] DEBUG1: Done reading input
+[14:20:35.793] DEBUG : Performing Sequential Run experiment
+Performing SEQUENCERUN
+
+Number of runs:    1
+Number of threads: 1/20
+----------------------
+<--THREAD-00_RUN-001-START	 EACT
+<--THREAD-00_RUN-001-END	(100.0%)
+----------------------
+Finalizing SEQUENCERUN
+
+Performing DRC Analysis
+-----------------------
+<--RUN-001-END	(100.0%)
+-----------------------
+Finalizing DRC Analysis
+
+FINALIZING SEQUENCERUN -- SUMMARY
+*********************************
+For all runs, the sum of surface components has not changed more than 1.9984014443e-13%
+
+For all runs, no surface concentrations were found lower than 0.0000000000e+00
+
+For all runs, no absolute surface differentials were found higher than 1.0738540239e-15 (at 6.7315000000e+02K)
+
+For all runs, no relative surface differentials were found higher than 8.4317494158e-14 (at 6.7315000000e+02K)
+
+*********************************
+Additional routines ran
+-----------------------
+Apparent activation energy:
+    EACTDIFF = 0.0001
+    version 3.13.4 default = 0.0001; 
+          <=3.13.3 default = 0.002
+Degree of rate control:
+    DRCDIFF = 0.01
+    version 3.13.4 default = 0.01; 
+          <=3.13.3 default = 0.2
+-----------------------
+Calculating production patterns
+================================
+species_balance: Analyzing 4 products.
+[14:20:42.506] DEBUG : Temperature: 673.15
+
+Calculating selectivity patterns
+================================
+species_balance: Analyzing 4 products.
+[14:20:42.506] DEBUG : Temperature: 673.15
+
+Calculating degree of selectivity control
+=========================================
+species_balance: Analyzing 4 products.
+[14:20:42.506] DEBUG :     CH3OH: 
+[14:20:42.506] DEBUG : Temperature: 673.15
+[14:20:42.506] DEBUG :     CO: 
+[14:20:42.506] DEBUG : Temperature: 673.15
+[14:20:42.506] DEBUG :     CH2O: 
+[14:20:42.506] DEBUG : Temperature: 673.15
+[14:20:42.506] DEBUG :     CH4: 
+[14:20:42.506] DEBUG : Temperature: 673.15
+
+Writing network files...
+Writing SEQUENCERUN_2024-07-05_1420/networkplots/network_01_673.15K.dot
+*********************************
+
+Writing graphs...
+Logfile: SEQUENCERUN_2024-07-05_1420/graphs/graphs_log.txt
+Writing graphs per single_x
+[14:20:42.519] DEBUG : Writing 673.15K coverage...
+[14:20:42.615] DEBUG : Writing 673.15K derivatives...
+Writing range graphs
+[14:20:42.637] DEBUG : Writing range_coverage...
+[14:20:42.662] DEBUG : Writing range_derivative...
+[14:20:42.680] DEBUG : Writing range_rates...
+[14:20:42.744] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[14:20:42.744] DEBUG : Writing production for: species_balance
+[14:20:42.768] DEBUG : Writing selectivity for: species_balance
+[14:20:42.854] DEBUG : Writing degree of selectivity for: species_balance
+[14:20:42.854] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+[14:20:42.854] WARNING: Could not construct dataset, error was: Empty vectors received in construction of datablock
+*********************************
+
+Total execution time: 7128.45 ms.
+

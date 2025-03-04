@@ -1,0 +1,7 @@
+Nice! No warnings were generated.
+However this does not necessarily imply that all results are correct.
+Always verify if the output is as expected.
+For all runs, the sum of surface components has not changed more than 6.4392935428e-13%
+For all runs, no surface concentrations were found lower than 0.0000000000e+00
+For all runs, no absolute surface differentials were found higher than 2.2413935128e-13 (at 5.7315000000e+02K)
+For all runs, no relative surface differentials were found higher than 5.5631329498e-13 (at 5.7315000000e+02K)

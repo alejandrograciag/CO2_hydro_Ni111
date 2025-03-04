@@ -1,0 +1,48 @@
+#Informacion sobre las especies involucradas, las condiciones en las que se da la simulacion y parametros que especifican el comportamiento del programa.
+
+random_seed     123278      #Numero que define la seed del generador de numeros aleatorios. 
+
+temperature     673.15       #Temperatura a la que se hace la simulacion. En Kelvin.
+pressure        10.0        #Presion (bar) en la que se simula el sistema
+
+n_gas_species          7           #Numero de especies en fase gas
+gas_specs_names        CO2       CO          H2           H2O          CH4        CH3OH         CH2O         #Nombre de las especies en fase gas
+gas_energies           0.897     1.709       0.000        0.000        0.000      1.048         1.691        #Formation energy de las especies en fase gas incluyendo ZPE. 
+gas_molec_weights      44.0100   28.0105     2.0158       18.0153      16.0426    32.0376       30.0263      #Molecular weight in amu. 
+gas_molar_fracs         0.20000   0.00000     0.8000       0.00000      0.00000   0.00000       0.00000   #Fraccion molar  inicial de las especies en fase gas. 
+
+
+n_surf_species        19          #Numero de especies adsorbidas
+surf_specs_names      H*   CO*    O*    CO2*     HCOO**    COOH**     OH*    HCO*     C*     CH*    CH2*    CH3*   COH*    H2O*   CH2O*   CH2OH**    CH3O*   CH3OH**    HCOH*    #Nombre de cada especie
+surf_specs_dent       1     1     1      1        2         2        1     1        1       1      1       1      1       1      1        2         1       2        1     # Si las especies son monodentadas o bident
+
+snapshots              on event 100000    #Determina cada cuanto se escribe un snapshot del estado de la lattice en el history_output.txt
+process_statistics     on event 100000    #Determina cada cuanto se escribe informacion estadistica sobre los elementary steps en el procstat_output.txt. 
+species_numbers        on event 100000  #Determina cada cuanto se obtiene informacion sobre el numero de especies en fase gas y adsorbidas asi como la energia de la lattice configuration que se escribre en el specnum_output.txt
+
+event_report        off                #Da información en cada paso del KMC sobre el proceso elemental que se acaba de dar en el general_output.txt
+
+max_steps           200000000           #Maximo numero de steps que se van a simular. El valor inifinity define que el criterio por steps es maximo
+max_time            infinity                #Define el tiempo maximo de simulacion. 
+
+wall_time           10000000               #Define el tiempo real maximo de simulacion en segundos. El estado final de la simulacion se graba en el restart.inf 
+
+no_restart                           #Se utiliza para que el programa no genere ningun tipo de restart. 
+
+
+
+
+# HAY ALGUNAS OTRAS KEYWORDS QUE SIRVEN COMO DEBBUGING 
+
+# debug_report_global_energetics        #Da informacion sobre las diferentes contribuciones energeticas para la energetica total de la lattice. La informacion se escribe en el globalenerg_debug.txt y incluye: 1) deteccion de nuevas inicializaciones de procesos y de la formacion de nuevas especies despues de cada step. 2) Deteccion de los procesos que se eliminan debido a que una de las especies a desaparecido. 3) La re-indexacion correcta de los procesos cuando alguno a desaparecido debedio a que una especie a desaparecido, asegurando que no quedan agujeros en la lista de procesos. 4) La energia total del KMC en cada step.
+
+
+# debug_report_processes               # Da informacion pertinente a la cola de procesos en la lattice durante el KMC en el process_debug.txt y incluye. 1) Deteccion de nuevos procesos elementales cada vez que una nuevas especie aparece en la lattice despues de un paso KMC. 2) La eliminacion de procesos elementales cuando desaparece una especie en la lattice despues de un paso KMC. 3) La re-indexacion de los procesos. 4) La rate de cada proceso elemental como resultado de las interacciones energeticas debidas a las nuevas especies en la lattice. 
+
+# debug_check_processes               #Hace un check interno que verifica la autoconsistencia de la estructura de los procesos pertinente a cada paso KMC. Interno del codigo
+
+
+# debug_check_lattice                 #Hace un check interno que verifica la autoconsistencia en la formacion de la lattice. Interno del codigo. 
+
+
+finish

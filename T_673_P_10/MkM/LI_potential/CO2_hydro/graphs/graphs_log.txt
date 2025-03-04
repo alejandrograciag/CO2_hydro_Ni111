@@ -1,0 +1,48 @@
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/temperatures/673.15K/coverage_bar.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/temperatures/673.15K/coverage_bar.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/temperatures/673.15K/coverage_line.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/temperatures/673.15K/coverage_line.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/temperatures/673.15K/derivatives.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/temperatures/673.15K/derivatives.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/coverage_bar.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/coverage_bar.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/coverage_line.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/coverage_line.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/coverage_line.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/data/derivative.txt
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/derivative.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/derivative.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/derivative.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/rates.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/rates.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/rates.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/eact.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/eact.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/eact.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/drc_line.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/drc_line.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/drc_line.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/drc_bar.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/drc_bar.png
+Writing graphs for sensitivity analysis...
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/production_bar_species_balance.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/production_bar_species_balance.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/production_line_species_balance.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/production_line_species_balance.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/production_line_species_balance.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/selectivity_bar_species_balance.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/selectivity_bar_species_balance.png
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/selectivity_line_species_balance.pdf
+Less than 4 datapoints; reverting to simple line
+Writing SEQUENCERUN_2025-02-27_1203/graphs/pdf/selectivity_line_species_balance.pdf
+Writing SEQUENCERUN_2025-02-27_1203/graphs/png/selectivity_line_species_balance.png
+Could not construct dataset, error was: Empty vectors received in construction of datablock
+Could not construct dataset, error was: Empty vectors received in construction of datablock
+Could not construct dataset, error was: Empty vectors received in construction of datablock
+Could not construct dataset, error was: Empty vectors received in construction of datablock

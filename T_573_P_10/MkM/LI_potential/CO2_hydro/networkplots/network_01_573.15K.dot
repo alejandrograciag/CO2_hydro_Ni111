@@ -1,0 +1,47 @@
+strict digraph G {
+	layout=dot
+	rotate=0
+	ratio=1
+	rankdir=TB
+	root=CO2
+	"CO2" -> "CO2*" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"*" -> "CO2*" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"CO*" -> "CO" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"CO*" -> "*" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"H2" -> "H*" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"*" -> "H*" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"H2O*" -> "H2O" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"H2O*" -> "*" [label="1.00e+00",fontname="monospace",penwidth=7,color=crimson];
+	"CO2*" -> "CO*" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"CO2*" -> "O*" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"*" -> "CO*" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"*" -> "O*" [label="1.00e+00",fontname="monospace",penwidth=6,color=crimson];
+	"COOH*" -> "CO*" [label="1.01e-04",fontname="monospace",penwidth=1,color=black];
+	"COOH*" -> "OH*" [label="1.01e-04",fontname="monospace",penwidth=1,color=black];
+	"*" -> "CO*" [label="1.01e-04",fontname="monospace",penwidth=1,color=black];
+	"*" -> "OH*" [label="1.01e-04",fontname="monospace",penwidth=1,color=black];
+	"O*" -> "OH*" [label="1.99e+00",fontname="monospace",penwidth=7,color=crimson];
+	"O*" -> "*" [label="1.99e+00",fontname="monospace",penwidth=7,color=crimson];
+	"H*" -> "OH*" [label="1.99e+00",fontname="monospace",penwidth=7,color=crimson];
+	"H*" -> "*" [label="1.99e+00",fontname="monospace",penwidth=7,color=crimson];
+	"OH*" -> "H2O*" [label="6.03e-03",fontname="monospace",penwidth=2,color=black];
+	"OH*" -> "*" [label="6.03e-03",fontname="monospace",penwidth=2,color=black];
+	"H*" -> "H2O*" [label="6.03e-03",fontname="monospace",penwidth=2,color=black];
+	"H*" -> "*" [label="6.03e-03",fontname="monospace",penwidth=2,color=black];
+	"OH*" -> "O*" [label="9.94e-01",fontname="monospace",penwidth=6,color=crimson];
+	"OH*" -> "H2O*" [label="9.94e-01",fontname="monospace",penwidth=6,color=crimson];
+	"OH*" -> "O*" [label="9.94e-01",fontname="monospace",penwidth=6,color=crimson];
+	"OH*" -> "H2O*" [label="9.94e-01",fontname="monospace",penwidth=6,color=crimson];
+	"CO*"[fontname="monospace",shape=hexagon,label="CO*\n0.000321045",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"*"[fontname="monospace",shape=hexagon,label="*\n0.911532",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"H*"[fontname="monospace",shape=hexagon,label="H*\n0.0877792",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"COOH*"[fontname="monospace",shape=hexagon,label="COOH*\n8.23833e-15"];
+	"CO"[fontname="monospace",shape=hexagon,label="CO\n0",fillcolor=black,style=filled,fontcolor=white];
+	"OH*"[fontname="monospace",shape=hexagon,label="OH*\n7.54052e-07",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"H2"[fontname="monospace",shape=hexagon,label="H2\n8",fillcolor=black,style=filled,fontcolor=white];
+	"H2O"[fontname="monospace",shape=hexagon,label="H2O\n-1.22435e-38",fillcolor=black,style=filled,fontcolor=white];
+	"H2O*"[fontname="monospace",shape=hexagon,label="H2O*\n1.19386e-14",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"O*"[fontname="monospace",shape=hexagon,label="O*\n0.000352857",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"CO2*"[fontname="monospace",shape=hexagon,label="CO2*\n1.45791e-05",fillcolor=firebrick3,style=filled,fontcolor=white];
+	"CO2"[fontname="monospace",shape=hexagon,label="CO2\n2",fillcolor=black,style=filled,fontcolor=white];
+}
